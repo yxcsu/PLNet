@@ -2,7 +2,7 @@
 Tips:
 ========================================================================================
 * The main code for PLNet training, validating and testing
-* Data resources can be obtained from publicly available Bayesian image databases.
+* Data resources can be obtained from publicly available palm-leaf manuscript image databases.
 * Parameters in the following code should be adjusted to adapt to in your own case.
 * It is worth mentioning that the value of batch_size depends on memeory size, if you train 
   the network on CPU (Actually we don't suggest you to train in this way due to a significant

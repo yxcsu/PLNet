@@ -2,7 +2,7 @@ import os
 from tqdm import tqdm
 from PIL import Image
 import numpy as np
-import crop_image
+from Preprocessing import crop_image
 import torch
 import torchvision.transforms as transforms
 import torch.nn as nn

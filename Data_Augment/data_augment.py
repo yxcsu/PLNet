@@ -1,11 +1,17 @@
 from albumentations import (
-    HorizontalFlip, VerticalFlip, Rotate, ShiftScaleRotate, RandomBrightnessContrast, Perspective, CLAHE, 
-    Transpose, Blur, OpticalDistortion, GridDistortion, HueSaturationValue, ColorJitter, GaussNoise, MotionBlur, MedianBlur,
-    Emboss, Sharpen, Flip, OneOf, SomeOf, Compose, Normalize, CoarseDropout, CenterCrop, GridDropout, Resize,RandomResizedCrop
+    HorizontalFlip, VerticalFlip, ShiftScaleRotate, RandomBrightnessContrast, 
+    Transpose, Blur, HueSaturationValue, GaussNoise, MotionBlur, MedianBlur,
+    OneOf, SomeOf, Compose, Normalize, CoarseDropout, CenterCrop, RandomResizedCrop
 )
 from albumentations.pytorch import ToTensorV2
 # set data augment parameters
 def data_augment():
+    '''
+    Set the data augmentation parameters
+    Returns:
+        train_transform: The data augmentation parameters for the training set
+        test_transform: The data augmentation parameters for the validation and test sets
+    '''
     train_transform = Compose([
             OneOf([
             CoarseDropout(p=0.5),

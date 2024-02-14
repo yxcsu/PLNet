@@ -5,6 +5,11 @@ import torchvision.transforms as transforms
 import torchvision
 from tqdm import tqdm
 def calculate_mean_std(train_dir):
+    '''
+    Calculate the mean and standard deviation of the dataset
+    Args:
+        train_dir (string): The path of the dataset
+    '''
     # create a dataset object
     process = transforms.Compose([
         # transforms.Grayscale(),

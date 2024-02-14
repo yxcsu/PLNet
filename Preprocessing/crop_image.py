@@ -1,6 +1,13 @@
 from PIL import Image
   
 def crop_image(img):
+    '''
+    Crop the image into 224*224 blocks
+    Args:
+        img (PIL.Image): The image to be cropped
+    Returns:
+        list: The list of cropped images
+    '''
     # Use Image to read images and convert them to RGB images
     # img = Image.open(image).convert('RGB')
     # Obtain the width and height of the image

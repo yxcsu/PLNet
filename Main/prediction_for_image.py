@@ -10,8 +10,14 @@ import pandas as pd
 import torchvision.models as models
 
 # set parameters
-
 def prediction(model_dir,test_dir,save_dir):   
+    '''
+    Predict the class labels of the test images and save the results to a CSV file
+    Args:
+        model_dir (string): The path of the model
+        test_dir (string): The path of the folder containing the images to be predicted
+        save_dir (string): The path of the CSV file to save the results
+    '''
     model = models.efficientnet_b2(weights= models.EfficientNet_B2_Weights.DEFAULT)
 
     model.classifier = nn.Sequential(

@@ -20,6 +20,14 @@ import cv2
 import numpy as np
 # set the path to the folder containing the images to be predicted
 def GuidedGradCAM(model_path, test_data_path, save_path, layer):
+    '''
+    Generate the interpretability analysis results of the test images using Guided Grad-CAM
+    Args:
+        model_path (string): The path of the model
+        test_data_path (string): The path of the folder containing the images to be predicted
+        save_path (string): The path of the folder to save the interpretability analysis results
+        layer (string): The layer to visualize
+    '''
     class_names = ['Corypha','Borassus']
     # set the device to GPU
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')

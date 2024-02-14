@@ -1,5 +1,4 @@
-
-
+# Description: This script is used to calculate the performance metrics and plot the confusion matrix
 """
 confusionMetric  
 P\L     P    N
@@ -11,7 +10,13 @@ import seaborn as sns
 import pandas as pd
 from sklearn.metrics import confusion_matrix
 def Metrics(path_to_csv,save_path):
-# Load the CSV file
+    '''
+    Calculate the performance metrics and plot the confusion matrix
+    Args:
+        path_to_csv (string): The path of the CSV file
+        save_path (string): The path to save the confusion matrix
+    '''
+    # Load the CSV file
     df = pd.read_csv(path_to_csv)
 
     # Extract true and predicted labels

@@ -1,12 +1,15 @@
-"""
-Remove the background image of the corresponding path and save it
-"""
 from io import BytesIO
 import os
 from PIL import Image
 from rembg import remove
 from tqdm import tqdm
 def process_images(input_path, output_path):
+    '''
+    Remove the background image of the corresponding path and save it
+    Args:
+        input_path (string): The path of the input images
+        output_path (string): The path of the output images
+    '''
 
     if not os.path.exists(output_path):
         os.makedirs(output_path)

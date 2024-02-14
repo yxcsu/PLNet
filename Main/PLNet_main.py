@@ -180,4 +180,4 @@ if __name__ == '__main__':
     num_epochs = 100
     batchsize = 64
     patience = 5
-    train()
+    train(data_path, model_path, train_list, learning_rate, weight_decay, num_epochs, batchsize, patience)

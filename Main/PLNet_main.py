@@ -38,7 +38,19 @@ from Dataset import LeafDataset
 from Data_Augment import data_augment
 
 # #set parameters
-def main():
+def train(data_path, model_path, train_list, learning_rate, weight_decay, num_epochs, batchsize, patience):
+    '''
+    Train the model and save the loss and accuracy of training and validation sets to a file
+    Args:
+        data_path (string): The path of the dataset
+        model_path (string): The path of the model
+        train_list (string): The path of the file to save the loss and accuracy of training and validation sets
+        learning_rate (float): The learning rate
+        weight_decay (float): The weight decay
+        num_epochs (int): The number of epochs
+        batchsize (int): The batch size
+        patience (int): The patience for early stopping
+    '''
     # load data
     train_data_path = os.path.join(data_path, "train")
     val_data_path = os.path.join(data_path, "val")   
@@ -168,4 +180,4 @@ if __name__ == '__main__':
     num_epochs = 100
     batchsize = 64
     patience = 5
-    main()
+    train()

@@ -43,16 +43,20 @@ Install Package: [PLNet](https://github.com/1393131688/PLNet/releases/download/v
 
 ## Software usage
 1.predict
-[](https://github.com/yxcsu/PLNet/blob/master/Videos/predict.mov)
+
+![overview](https://github.com/yxcsu/PLNet/blob/master/Videos/predict.mov)
 
 2.save data
-[](https://github.com/yxcsu/PLNet/blob/master/Videos/save_csv.mov)
+
+![overview](https://github.com/yxcsu/PLNet/blob/master/Videos/save_csv.mov)
 
 3.save report
-[](https://github.com/yxcsu/PLNet/blob/master/Videos/save_report.mov)
+
+![overview](https://github.com/yxcsu/PLNet/blob/master/Videos/save_report.mov)
 
 4.delete photos
-[](https://github.com/yxcsu/PLNet/blob/master/Videos/delete.mov)
+
+![overview](https://github.com/yxcsu/PLNet/blob/master/Videos/delete.mov)
 
 ## Contact
 - zmzhang@csu.edu.cn

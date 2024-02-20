@@ -36,6 +36,24 @@ The overlapped peak dataset for training, validating and testing the GCMSFormer 
 An example has been provided in [test.ipynb](https://github.com/yxcsu/PLNet/blob/master/test.ipynb) 
 script for the convenience of users. The PLNet model is public at [release](https://github.com/1393131688/PLNet/releases/download/v1.0.0/model.zip), every user can download and use it. 
 
+## Software installation
+The current install version of PLNet only supports Windows 64-bit version. It has been test on _**Windows 10**_ and _**Windows 11**_.
+
+Install Package: [PLNet](https://github.com/1393131688/PLNet/releases/download/v1.0.0/model.zip)
+
+## Software usage
+1.predict
+[](https://github.com/yxcsu/PLNet/blob/master/Videos/predict.mov)
+
+2.save data
+[](https://github.com/yxcsu/PLNet/blob/master/Videos/save_csv.mov)
+
+3.save report
+[](https://github.com/yxcsu/PLNet/blob/master/Videos/save_report.mov)
+
+4.delete photos
+[](https://github.com/yxcsu/PLNet/blob/master/Videos/delete.mov)
+
 ## Contact
 - zmzhang@csu.edu.cn
 - 222311026@csu.edu.cn

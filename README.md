@@ -45,26 +45,25 @@ Install Package: [PLNet](https://github.com/1393131688/PLNet/releases/download/v
 1.predict
 
 <video width="320" height="240" controls> 
-  <source src="https://github.com/yxcsu/PLNet/blob/master/Videos/predict.mp4" type="video/mp4"> 
+  <source src="https://github.com/yxcsu/PLNet/blob/main/Videos/predict.mp4" type="video/mp4"> 
 </video> 
-
 
 2.save data
 
 <video width="320" height="240" controls> 
-  <source src="https://github.com/yxcsu/PLNet/blob/master/Videos/save_csv.mp4" type="video/mp4"> 
+  <source src="https://github.com/yxcsu/PLNet/blob/main/Videos/save_csv.mp4" type="video/mp4"> 
 </video> 
 
 3.save report
 
 <video width="320" height="240" controls> 
-  <source src="https://github.com/yxcsu/PLNet/blob/master/Videos/save_report.mp4" type="video/mp4"> 
+  <source src="https://github.com/yxcsu/PLNet/blob/main/Videos/save_report.mp4" type="video/mp4"> 
 </video> 
 
 4.delete photos
 
 <video width="320" height="240" controls> 
-  <source src="https://github.com/yxcsu/PLNet/blob/master/Videos/delete.mp4" type="video/mp4"> 
+  <source src="https://github.com/yxcsu/PLNet/blob/main/Videos/delete.mp4" type="video/mp4"> 
 </video> 
 
 ## Contact

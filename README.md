@@ -37,9 +37,9 @@ An example has been provided in [test.ipynb](https://github.com/yxcsu/PLNet/blob
 script for the convenience of users. The PLNet model is public at [release](https://github.com/1393131688/PLNet/releases/download/v1.0.0/model.zip), every user can download and use it. 
 
 ## Software installation
-The current install version of PLNet only supports Windows 64-bit version. It has been test on _**Windows 10**_ and _**Windows 11**_.
+The current install version of PLNet only supports Windows 64-bit version. It has been test on _**Windows 7**_,_**Windows 10**_ and _**Windows 11**_.
 
-Install Package: [PLNet](https://github.com/1393131688/PLNet/releases/download/v1.0.0/model.zip)
+Install Package: [PLNet](https://drive.google.com/file/d/1EpwKRBhgwKbhtSqJ8iOSqoMdHEWuraag/view?usp=drive_link)
 
 ## Software usage
 1.predict

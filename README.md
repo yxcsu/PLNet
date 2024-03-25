@@ -1,4 +1,4 @@
-# Palm-leaf manuscript plant genus identification based on EfficientNet
+# Palm-leaf manuscript plant genus identification based on PLNet
 ## Background
 There are millions of palm-leaf manuscripts distributed around the world that require the determination of their plant genera to carry out subsequent traceability, conservation, restoration, and exhibition efforts. However, the traditional method for identifying the plant genus of palm leaf manuscripts is too inefficient. In this study, a method named PLNet was proposed for **p**alm-**l**eaf manuscript plant genus identification based on Efficient**Net**.PLNet is a quick and automated method for palm-leaf manuscript plant genus identification when the labeled training data is limited.
 
@@ -39,24 +39,24 @@ script for the convenience of users. The PLNet model is public at [release](http
 ## Software installation
 The current install version of PLNet only supports Windows 64-bit version. It has been test on _**Windows 7**_,_**Windows 10**_ and _**Windows 11**_.
 
-Install Package: [PLNet](https://drive.google.com/file/d/1EpwKRBhgwKbhtSqJ8iOSqoMdHEWuraag/view?usp=drive_link)
+Install Package: [PLNet](https://github.com/1393131688/PLNet/releases/download/v1.0.0/PLNet.exe)
 
 ## Software usage
 1.predict
 
-https://github.com/yxcsu/PLNet/assets/75461756/2eb4b5af-9eff-4e0e-a9b9-a61dcfa99fb0
+https://github.com/yxcsu/PLNet/assets/75461756/a1627dcc-85f0-4406-ba77-4f437734e711
 
 2.save data
 
-https://github.com/yxcsu/PLNet/assets/75461756/448ef21c-3a20-47df-bbbb-d9fa9a085e49
+https://github.com/yxcsu/PLNet/assets/75461756/7453e054-d004-4f03-b71c-1dd02602d2f4
 
 3.save report
 
-https://github.com/yxcsu/PLNet/assets/75461756/b1160749-87dd-45cb-94ab-0a4db57ee2ec
+https://github.com/yxcsu/PLNet/assets/75461756/74270d1c-d1ec-4456-83eb-44acc4af5d60
 
 4.delete photos
 
-https://github.com/yxcsu/PLNet/assets/75461756/5975f834-4e1b-4944-b6d0-803ba336d179
+https://github.com/yxcsu/PLNet/assets/75461756/8a6b8c19-b566-498b-9d60-6ea6e51741b8
 
 ## Contact
 - zmzhang@csu.edu.cn

@@ -53,17 +53,15 @@ def train(data_path, model_path, train_list, learning_rate, weight_decay, num_ep
     
     # create model
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-    model = models.vgg11(weights=models.VGG11_Weights.DEFAULT)
-    fc_features = 512*7*7
-    fc_hidden_units = 4096
+    model = models.alexnet(weights = models.AlexNet_Weights.DEFAULT)
     model.classifier = nn.Sequential(
-        nn.Linear(fc_features, fc_hidden_units),
-        nn.ReLU(),
-        nn.Dropout(0.3),
-        nn.Linear(fc_hidden_units, fc_hidden_units),
-        nn.ReLU(),
-        nn.Dropout(0.3),
-        nn.Linear(fc_hidden_units, 2)                              
+        nn.Dropout(p=0.5),
+        nn.Linear(256 * 6 * 6, 4096),
+        nn.ReLU(inplace=True),
+        nn.Dropout(p=0.5),
+        nn.Linear(4096, 4096),
+        nn.ReLU(inplace=True),
+        nn.Linear(4096, 2),
     )
     model = model.to(device)
     # loss and optimizer

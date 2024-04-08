@@ -39,7 +39,7 @@ script for the convenience of users. The PLNet model is public at [release](http
 ## Software installation
 The current install version of PLNet only supports Windows 64-bit version. It has been test on _**Windows 7**_,_**Windows 10**_ and _**Windows 11**_.
 
-Install Package: [PLNet](https://github.com/1393131688/PLNet/releases/download/v1.0.0/PLNet.exe)
+Install Package: [PLNet](https://github.com/1393131688/PLNet/releases/download/v1.0.0/PLNet-GUI-v1.0.0.exe)
 
 ## Software usage
 1.predict

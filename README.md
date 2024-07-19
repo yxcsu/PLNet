@@ -1,6 +1,6 @@
-# Palm-leaf manuscript plant genus identification based on PLNet
+# PLNet: a non-destructive and efficient plant species identification method for palm-leaf manuscript
 ## Background
-There are millions of palm-leaf manuscripts distributed around the world that require the determination of their plant genera to carry out subsequent traceability, conservation, restoration, and exhibition efforts. However, the traditional method for identifying the plant genus of palm leaf manuscripts is too inefficient. In this study, a method named PLNet was proposed for **p**alm-**l**eaf manuscript plant genus identification based on Efficient**Net**.PLNet is a quick and automated method for palm-leaf manuscript plant genus identification when the labeled training data is limited.
+There are millions of palm-leaf manuscripts distributed around the world that require the determination of their plant species to carry out subsequent traceability, conservation, restoration, and exhibition efforts. However, the traditional method for identifying the plant species of palm leaf manuscripts is too inefficient. In this study, a method named PLNet was proposed for **p**alm-**l**eaf manuscript plant species identification based on Efficient**Net**.PLNet is a quick and automated method for palm-leaf manuscript plant species identification when the labeled training data is limited.
 
 ![overview](overflow.png)
 ### Package required:

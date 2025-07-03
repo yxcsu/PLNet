@@ -57,7 +57,7 @@ def prediction(model_dir,test_dir,save_dir):
                 results = []
                 outputbyz = []
                 outputtz = []
-                batch_size = min(64, len(blocks))  # batch size不超过64
+                batch_size = min(64, len(blocks)) 
                 for i in range(0, len(blocks), batch_size):
                     batch = blocks[i:i + batch_size]
                     batch = torch.stack([preprocess(block) for block in batch]).to(device)
@@ -74,9 +74,9 @@ def prediction(model_dir,test_dir,save_dir):
                 'filename': [img_path],
                 'byz_all': [count_0],
                 'tz_all': [count_1],  
-                'outputbyz':[sum(outputbyz)],
-                'outputtz':[sum(outputtz)],
-                'result_output':[byz if sum(outputbyz)>sum(outputtz) else tz]
+                'outputbyz':[np.mean(outputbyz)],
+                'outputtz':[np.mean(outputtz)],
+                'result_output':[byz if np.mean(outputbyz)>np.mean(outputtz) else tz]
                    })              
                 if not os.path.exists(save_dir):
                     df.to_csv(save_dir, index=False)
